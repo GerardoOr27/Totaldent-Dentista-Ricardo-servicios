@@ -1,0 +1,388 @@
+Body/*cambia el color de fondo, interlineado y tipo de letra,TODOS los codigos los obtuve de aqui:https://www.w3schools.com/html/default.asp*/
+ 	{
+	background-color:#E6EBF0;
+	font-family:"Arial";
+	line-height:.3;
+	}
+
+div.titulo/*tamaño de letra, tipo de letra, color de la letra, que este centrado, el grosor de la letra, la posicion del texto y el efecto de sombra*/
+	{
+	text-align:left;
+	background-color:#3BB398;
+	padding:10px;
+	}
+.margen/*Tiene un margen izquierdo*/{
+	margin-left:2.5cm;
+	}
+.logo/*Siempre se va hacia la derecha de forma flotante */
+	{
+	float:left;
+	display:block;
+	}
+.logo2/*Siempre se va hacia la derecha de forma flotante, además de tener un espacio a la derecha*/
+	{
+	padding-right:20px;
+	float:right;
+	}
+.volver/*Siempre se va hacia la izquierda de forma flotante, se muestra y tiene un margen en la derecha*/{
+	float:left;
+	display:block;
+	margin-right:1.49cm;
+	}
+h1/*Margen a la izquierda y derecha, el tamaño de letra, la familia de letra, el color de letra y el grosor de la letra*/	{
+
+	margin-left: 2.5cm;
+	margin-right: 2.5cm;
+	Font-size: 34px;
+	font-family: "arial";
+	color:#FFFFFF;
+	font-weight:bold;
+	}
+h2.titulo/*Tamano de letra, tipo de letra, color de letra, estilo de letra, alineado al centro y espaciado*/
+	{
+	font-size:14px;
+	font-family:"Homer Simpson UI";
+	color:#FFFFFF;
+	text-align:left;
+	float:bottom;
+	margin-left: 4cm;
+	margin-right: 2.5cm;
+	}
+div.menu/*Se pega en la parte de arriba al bajar con el cursor, tiene un color de fondo, borde de la parte de abajo modificado, espaciado de ancho y largo, se muestra y va despues de cierto elemento*/{
+	top:0;
+	position:webkit-sticky;
+	position:sticky;
+	background-color:#FFFFFF;
+	border-bottom:1px solid #BBBBBB;
+	padding:12px 95px;
+	Display:block;
+	z-index:2;
+
+	}
+div.mdown/*Posición en la que se ajusta a lo de adentro, color de fondo, esta pegado a la parte de abajo, espaciado de ancho y largo y va antes que cierto elemento*/{
+	position:relative;
+	bottom:0;
+	background-color:#347dde;
+	padding:50px 180px;
+	z-index:1;
+
+	}
+.dropbtn/*Color de fondo, color de letra, ancho y largo de el elemento, tamaño de letra, borde personalizado, el tipo de cursor que sale al pasar el mouse es de señalar*/ {
+  background-color: white;
+  color: #000000;
+  width:224px;
+  height:38px;
+  font-size: 15px;
+  border: 2px solid #BBBBBB;
+  border-radius:5px;
+  cursor: pointer;
+  
+}
+.dropdown/*La posición se ajusta al texto, ademas de mostrarse en linea horzontal*/ {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content/*No se muestra, posición que abarca prioridad, color de fondo, un mínimo de anchura, interlineado, sombra de el elemento, va antes que cierto elemento y borde personalizado*/ {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 170px;
+  line-height:1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border:2px solid #FFFFFF;
+  border-radius:5px;
+}
+
+
+.dropdown-content a /*Color de letra, espaciado de ancho y largo, ninguna decoracion en el texto, que se muestre, borde personalizado*/{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+  border:2px solid #FFFFFF;
+  border-radius:5px;
+}
+
+
+.dropdown-content a:hover /*Color de fondo, y color de letra*/
+	{
+	background-color: #347dde;
+	color:white;
+	}
+
+.dropdown:hover .dropdown-content /*Que se muestre y color de letra*/
+	{
+  display: block;
+	color:white;
+}
+
+
+.dropdown:hover .dropbtn /*color de fondo, color del borde y color de letra*/
+	{
+  background-color: #347dde;
+	border-color:#347dde;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+	
+div.c/*Borde personalizado, un márgen izquierdo, cierta cantidad de ancho y largo automático, color de fondo, interlineado, alineación del texto, que este pegado arriba, que siempre se vaya para la izquierda y que tenga margen de la parte de abajo*/
+	{
+	border:2px solid white;
+	border-radius:7px;
+	margin-left:2.5cm;
+	width:800px;
+	height:auto;
+	background-color:#FFFFFF;
+	line-height:.5;
+	text-align:Justify;
+	top:0;
+	float:left;
+	margin-bottom:1cm;
+	}
+div.c2/*Borde personalizado, espaciado de todos lados, márgen izquierdo y derecho además del de arriba, anchura, color de fondo, alineación del texto, posición que se ajuste a el texto*/
+	{
+	border:2px solid white;
+	padding:25px;
+	border-radius:7px;
+	margin-left:3.25cm;
+	margin-right:3.25cm;
+	margin-top:14cm;
+	height:auto;
+	background-color:#FFFFFF;
+	text-align:Justify;
+	position:relative;
+	}
+.mapa/*Una cantidad de ancho y largo, que siempre se vaya hacia arriba de forma flotante, va antes que cierto elemento y márgen izquierdo*/{
+	width:290px;
+	height:600px;
+	float:top;
+	z-index:1;
+	margin-left:1cm;
+
+}
+h3.horario/*Color de fondo, tipo de familia de letra, tamaño de letra, espaciado por la izquierda*/{
+	color:#3BB398;
+	font-family:"arial";
+	font-size:18px;
+	padding-left:12px;
+	}
+.
+h3.nombre/*Tipo de familia de letra, tamaño de letra, que siempre se vaya hacia la izquierda de forma flotante y espaciado izquierdo*/{
+	Font-family:"Homer Simpson IU";
+	font-size:24px;
+	float:left;
+	padding-left:12px;
+	}
+.blanco/*Color de letra e interlineado*/{
+	color:white;
+	line-height:1;
+	}
+h3.hyper/*Tipo de familia de letra, espaciado por la derecha, tamaño de letra y que siempre este hacia la derecha de forma flotante*/{
+	Font-family:"Homer Simpson IU";
+	padding-right:4px;
+	font-size:16px;
+	float:right;
+	}
+h3.hyper2/*Tipo de familia de letra, tamaño de letra y color de letra*/{
+	Font-family:"Homer Simpson IU";
+	font-size:38px;
+	color:#347dde;
+	}
+	
+p.informacion/*Tamaño de letra, espaciado de todos lados, color de letra e interlineado*/
+	{
+ 	font-size:18px;
+	padding: 20px;
+	color:#000000;
+	line-height:1.2;
+	}
+.centrado/*Posición que se queda flotando, márgen izquierdo y alineado del texto*/{
+	position:float;
+	margin-left:2cm;
+	text-align:center;
+
+	
+	}
+.centrado2/*Que se muestre, márgen izquierdo y derecho, texto alineado*/
+	{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+
+	
+	}
+.centrado3/*Que siempre se vaya hacia la derecha de forma flotante y márgen de todos lados*/
+	{
+	float:left;
+	margin:.8cm;
+	}
+
+.fondot/*Posición que abarque prioridad en todo su espacio, que se muestre, márgen izquierdo y derecho, cierta anchura y que vaya mucho antes que ciertos elementos*/
+	{
+	position:absolute;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width:98.8%;
+	z-index:-1;
+	}
+div.opacity/*Color de fondo, opaco a cierto nivel, posición absoluta que abarque prioridad, un ancho y largo y alineación del texto*/
+	{
+	background-color:black;
+	opacity:55%;
+	position:absolute;
+	width:98.8%;
+	height:507px;
+	text-align:center;
+
+	
+
+	}
+H1.grande/*Tipo de familia de letra, tamaño de letra, color de letra, interlineado, posición absoluta que abarque prioridad y sombra del texto*/
+	{
+	font-family:"arial";
+	font-size:70px;
+	color:White;
+	text-align:center;
+	line-height:1;
+	postion:absolute;
+	text-shadow:2px 2px 5px aqua;
+	}
+
+.foto/*Que se vaya siempre hacia la izquierda de forma flotante, que se muestre, márgen de todos lados, borde personalizado y espaciado en la derecha*/
+	{
+	float:left;
+	display:block;
+	margin:10px;
+	border:2px solid #FFFFFF;
+	border-radius:5px;
+	padding-right:15px;
+	}
+	
+
+.trabajo/*Color de letra, alineación de texto, tipo de familia de letra, tamaño de letra y márgen de izquierda*/
+	{
+	color:#347dde;
+	text-align:center;
+	font-family:"Verdana";
+	font-size:36px;
+	text-align:left;
+	margin-left:50px;
+ 
+	}
+
+
+table.ma/*Sin bordes y que se quede sin moverse*/
+	{
+	Border-collapse:collapse;
+	position:static;
+
+	}
+table.dm/*sin bordes, sin moverse y una anchura*/
+	{
+	Border-collapse:collapse;
+	position:static;
+	width:90%;
+	
+
+	}
+
+th.ma/*sin bordes*/
+	{
+	Border-collapse:collapse;
+	}
+th.dm/*sin bordes, grosor de letra, alineación de texto, espaciado de la parte de abajo y tamaño de letra*/
+	{
+	Border-collapse:collapse;
+	Font-weight:bold;
+	text-align:left;
+	padding-bottom:10px;
+	font-size:20px;
+	}
+
+td.ma/*Sin borde, márgen izquierdo y derecho*/
+	{
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	}
+td.dm/*Sin bordes y texto alineado*/
+	{
+	border-collapse:collapse;
+	text-aling:left;
+	}
+table.dos/*Que siempre se vaya a la izquierda de forma flotante, sin bordes excetpo el de abajo personalizado*/
+	{
+	float:left;
+	border-collapse:collapse;
+	border-bottom:2px solid #BBBBBB;
+	}
+th.dos/*Sin bordes, margen izquierdo y derecho, color de letra, grosor de letra, espaciado por todos lados*/
+	{
+	Border-collapse:collapse;
+	margin-right:auto;
+	margin-left:auto;
+	Color:#347dde;
+	Font-width:bold;
+	padding:5px;
+	}
+td.dos/*Márgen izquierdo y derecho, espaciado de todos lados, color de letra y sin bordes*/
+	{
+	Margin-rigth:auto;
+	padding:5px;
+	margin-left:auto;
+	color:#BBBBBB;
+	border-collapse:collapse;
+	}
+
+hr.horizontal/*Ancho y color*/
+	{
+	width:100%;
+	color:#3BB398;
+
+	}
+hr.vertical/*Largo, ancho, que se vaya a la izquierda de forma flotante y que tenga márgen izquierdo*/
+	{
+	height:15%;
+	width:0;
+	float:left;
+	margin-left:32px;
+	}
+	
+ul.experiencia/*Tipo de bullet, color de letra, tipo de familia de letra, tamaño de letra, interlineado y margen de todos lados*/{
+	list-style-type:circle;
+	color:black;
+	font-family:"arial";
+	font-size:18px;
+	line-height:1.2;
+	margin:34px;
+	}
+	
+a/*Color de letra y decoración de texto*/
+	{
+	color:black;
+text-decoration:none;
+	}
+
+.ados/*Color de letra y sin decoracion de texto*/
+	{
+	color:black;
+	text-decoration:none;}
+
+.ados:hover/*Color de fondoy color de letra*/
+	{  
+	background-color: #347dde;
+	color:white;
+	}
+
